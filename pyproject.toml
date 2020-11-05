@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "fcc-da-mean-var-std"
+version = "0.0.1"
+description = "FCC DA Mean Variance Standard Deviation Project"
+authors = ["Jeremy A Gray <jeremy.a.gray@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.18"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
